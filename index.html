@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards Zodiaco</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1>Zodíaco</h1>
+    </header>
+    <main class="signos-slider">
+        <button class="btn-seta btn-voltar" id="btn-voltar">
+            <img src="./images/seta-img.png" alt="seta">
+        </button>
+
+        <ul class="lista-signos">
+            <li class="cartao selecionado fundo-1">
+                <h2 class="nome">Áries</h2>
+                <img class="imagem-signo" src="./images/aries.jpg" alt="Signo de áries">
+                <div class="descricao">
+                    <h3 class="titulo">21/03 a 19/04</h3>
+                    <p class="texto">Regidos pelo planeta de marte, arianos vivem no agora e fundamentam a vida na existência,
+                        ação e decisão. Líderes natos, são ótimos empreendedores.
+                        São espontâneos, corajosos e enérgicos.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Touro</h2>
+                <img class="imagem-signo" src="./images/taurus.jpg" alt="Signo de touro">
+                <div class="descricao">
+                    <h3 class="titulo">20/04 a 20/05</h3>
+                    <p class="texto">Regidos pelo planeta vênus, taurinos são persistentes, sensuais e teimosos.
+                        Vivem pelo conforto e bem-estar, mas podem atingir níveis de possessividade.
+                        Prezando pela beleza e gula, sua satisfação exige contato com todos os cinco sentidos.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Gêmeos</h2>
+                <img class="imagem-signo" src="./images/gemini.jpg" alt="Signo de gêmeos">
+                <div class="descricao">
+                    <h3 class="titulo">21/05 a 21/06</h3>
+                    <p class="texto">Geminianos são regidos pelo planeta mercúrio, tendo como pontos fortes sua curiosidade,
+                        inteligência e necessidade de liberdade. Apreciadores de novas ideias, gostam de sair da rotina,
+                        sendo considerados o signo mais inteligente do zodíaco, eis que possuem alta agilidade mental.</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Câncer</h2>
+                <img class="imagem-signo" src="./images/cancer.jpg" alt="Signo de câncer">
+                <div class="descricao">
+                    <h3 class="titulo">22/06 a 22/07</h3>
+                    <p class="texto">Cancerianos são sensíveis, carinhosos e prezam pelo núcleo familiar.
+                        Regidos pela lua, os sentimentos sempre estão à flor da pele e buscam o que lhes traz segurança.
+                        Câncer costuma ter intuição acentuada, mas também se caracterizam pelo senso maternal
+                        e emotivo.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <h2 class="nome">Leão</h2>
+                <img class="imagem-signo" src="./images/leo.jpg" alt="Signo de leão">
+                <div class="descricao">
+                    <h3 class="titulo">23/07 a 22/08</h3>
+                    <p class="texto">Leoninos acreditam ser o centro das atenções, amam plateias, aplausos e constantemente são
+                        autoritários e orgulhosos. Regidos pelo sol, são criativos e possuem autoestima elevada.
+                        Geralmente são corajosos, mas oportunistas.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Virgem</h2>
+                <img class="imagem-signo" src="./images/virgo.jpg" alt="Signo de virgem">
+                <div class="descricao">
+                    <h3 class="titulo">23/08 a 22/09</h3>
+                    <p class="texto">Objetivos, humanos e organizados, virginianos são regidos por mercúrio, possuindo visão crítica
+                        e opinativa da vida. Buscam a perfeição e costumam identificar detalhes que ninguém
+                        mais percebe. Apesar de prezarem pela praticidade, também podem ser muito frios e calculistas.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Libra</h2>
+                <img class="imagem-signo" src="./images/libra.jpg" alt="Signo de libra">
+                <div class="descricao">
+                    <h3 class="titulo">23/09 a 22/10</h3>
+                    <p class="texto">Regidos pelo planeta vênus, librianos buscam o equilíbrio, sendo altamente éticos,
+                        vaidosos, empáticos e diplomáticos, sendo muitas vezes racionais, apesar de idealizar demais suas
+                        expectativas.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Escorpião</h2>
+                <img class="imagem-signo" src="./images/scorpio.jpg" alt="Signo de escorpião">
+                <div class="descricao">
+                    <h3 class="titulo">23/10 a 21/11</h3>
+                    <p class="texto">Escorpianos são intensos, misteriosos e intuitivos.
+                        Regidos por marte e plutão, costumam ser perspicazes e inclinados à capacidade natural
+                        de possuir um sexto sentido. Possuem uma força transformadora, apesar de ciumentos.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-1">
+                <h2 class="nome">Sagitário</h2>
+                <img class="imagem-signo" src="./images/sagittarius.jpg" alt="Signo de sagitário">
+                <div class="descricao">
+                    <h3 class="titulo">22/11 a 21/12</h3>
+                    <p class="texto">Regido por júpiter, o sagitariano é ativo. Otimista, viaja na própria mente
+                        ou no mundo inteiro, não aceitando limites ou rotinas. É exagerado, jovial e preza pelo movimento.
+                        Quanto mais, melhor!
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-2">
+                <h2 class="nome">Capricórnio</h2>
+                <img class="imagem-signo" src="./images/capricorn.jpg" alt="Signo de capricórnio">
+                <div class="descricao">
+                    <h3 class="titulo">22/12 a 19/01</h3>
+                    <p class="texto">Responsabilidade, ambição e persistência representam o capricorniano, que é regido por saturno.
+                        Com propósitos e metas definidos, Capricórnio possui foco e paciência com suas metas,
+                        sendo maduro, bem humorado e sempre busca seguir as regras do jogo, mesmo que pessimista.
+                    </p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-3">
+                <h2 class="nome">Aquário</h2>
+                <img class="imagem-signo" src="./images/aquarius.jpg" alt="Signo de aquário">
+                <div class="descricao">
+                    <h3 class="titulo">20/01 a 18/02</h3>
+                    <p class="texto">Regido por saturno e urano, aquarianos buscam a inovação, originalidade e independência.
+                        Com apreço à quebrar regras e paradigmas, costumam ter altas conexões com a liberdade.
+                        Idealistas e racionais, Aquário é humano, mas também podem ser radicais e "do contra".</p>
+                </div>
+            </li>
+
+            <li class="cartao fundo-4">
+                <h2 class="nome">Peixes
+                </h2>
+                <img class="imagem-signo" src="./images/pisces.jpg" alt="Signo de peixes">
+                <div class="descricao">
+                    <h3 class="titulo">19/02 a 20/03</h3>
+                    <p class="texto">Solidariedade, intuição e desapego representam o pisciano, que é regido pelos planetas júpiter e netuno.
+                        Com uma sensibilidade superior ao comum, são compassivos e inspiradores, tendendo a ter fortes
+                        conexões com a espiritualidade. Porém, também possuem um oceano de sentimentos, o que os leva ao extremo
+                        de um mundo de imaginações.
+                    </p>
+                </div>
+            </li>
+        </ul>
+
+        <button class="btn-seta" id="btn-avancar">
+            <img src="./images/seta-img.png" alt="seta">
+        </button>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
